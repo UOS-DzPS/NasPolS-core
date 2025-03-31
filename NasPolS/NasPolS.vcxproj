@@ -145,11 +145,13 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\polish.cpp" />
     <ClCompile Include="src\analyzer\verb_analyzer.cpp" />
+    <ClCompile Include="src\util\unit_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\analyzer.h" />
     <ClInclude Include="inc\polish.h" />
     <ClInclude Include="inc\suffix_trie.h" />
+    <ClInclude Include="inc\unit_test.h" />
     <ClInclude Include="inc\verb_analyzer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

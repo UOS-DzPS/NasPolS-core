@@ -95,6 +95,7 @@ void AnalyzerUnitTest(void)
 
 				if (ptr)
 				{
+					std::wcout << "NOUN! ";
 					Polish::PrintNounInfo(*ptr);
 					std::wcout << L"Potential stem: " << it->GetStem() << L'\n';
 				}
@@ -105,6 +106,7 @@ void AnalyzerUnitTest(void)
 
 				if (ptr)
 				{
+					std::wcout << "VERB! ";
 					Polish::PrintVerbInfo(*ptr);
 					std::wcout << L"Potential stem: " << it->GetStem() << L'\n';
 				}

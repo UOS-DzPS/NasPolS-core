@@ -116,3 +116,23 @@ void AnalyzerUnitTest(void)
 		}
 	}
 }
+
+void SplitterUnitTest() {
+	std::wstring input;
+	std::getline(std::wcin, input);
+
+	SentenceSplitter splitter;
+	std::vector<std::vector<std::wstring>> sentences = splitter.split(input);
+
+	for (int i = 0; i < sentences.size(); i++)
+	{
+		std::wcout << L"sentence[" << i << L"] = { ";
+		for (int j = 0; j < sentences[i].size(); ++j)
+		{
+			std::wcout << sentences[i][j];
+			if (j != sentences[i].size() - 1)
+				std::wcout << L", ";
+		}
+		std::wcout << L" }\n";
+	}
+}

@@ -53,5 +53,8 @@
     <ClInclude Include="inc\unit_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="inc\splitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

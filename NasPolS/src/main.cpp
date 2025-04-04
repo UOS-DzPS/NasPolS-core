@@ -16,9 +16,7 @@ void SetLocale(void)
 int main(void)
 {
 	SetLocale();
-	//AnalyzerUnitTest();
-	
-	SplitterUnitTest();
+	AnalyzerUnitTest();
 	
 	return 0;
 }
